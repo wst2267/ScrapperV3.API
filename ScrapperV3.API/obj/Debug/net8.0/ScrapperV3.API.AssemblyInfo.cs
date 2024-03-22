@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScrapperV3.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cbf47594dd3237c33152380214c38e14bc95112")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScrapperV3.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScrapperV3.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
