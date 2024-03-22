@@ -18,7 +18,19 @@ namespace ScrapperV3.API.Controllers
         public async Task<List<string>> GetImgOvergear(string section)
         {
             var listImg = await _scrapperRepository.GetImageOvergear(section);
+            if (listImg.Any())
+            {
+                await _scrapperRepository.UpdateNewEpisode(section, "overgear", listImg);
+            }
             return listImg;
+        }
+
+        [HttpPost]
+        [Route("CheckEP")]
+        public async Task<int> CheckEP()
+        {
+            var countEP = await _scrapperRepository.CheckEP();
+            return countEP;
         }
     }
 }

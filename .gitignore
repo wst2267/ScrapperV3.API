@@ -1,3 +1,4 @@
-﻿.vs
+.vs
+ScrapperV3.API/bin/Debug/net8.0
+ScrapperV3.API/obj/Debug
 ScrapperV3.API/obj
-ScrapperV3.API/obj/Debug/net8.0
