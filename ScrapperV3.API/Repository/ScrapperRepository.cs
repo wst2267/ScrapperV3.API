@@ -16,7 +16,7 @@ namespace ScrapperV3.API.Repository
             var web = new HtmlWeb();
             try
             {
-                await ValidateSection(section);
+                ValidateSection(section); 
 
                 var document = web.Load($"https://www.ranker-manga.com/overgeared-remake-{section}/");
                 var listOverGear = document.DocumentNode.QuerySelectorAll("div.reader-area");
@@ -41,7 +41,7 @@ namespace ScrapperV3.API.Repository
             return listImg;
         }
 
-        private async Task ValidateSection(string section)
+        private void ValidateSection(string section)
         {
             if (string.IsNullOrEmpty(section))
             {
