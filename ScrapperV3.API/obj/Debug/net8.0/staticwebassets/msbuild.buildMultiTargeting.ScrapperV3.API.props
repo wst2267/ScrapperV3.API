@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ScrapperV3.API.props" />
+</Project>
